@@ -14,6 +14,6 @@ const navigator = createStackNavigator(
       title: "App",
     },
   }
-);
+)
 
 export default createAppContainer(navigator);
