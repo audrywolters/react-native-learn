@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList } from 'react-native';
 
 const ListScreen = () => {
 
-    const friends = [
+    const friendList = [
         { name: 'Jill' },
         { name: 'Megan' },
         { name: 'Arik' },
@@ -16,7 +16,8 @@ const ListScreen = () => {
 
     return (
         <FlatList 
-            data={ friends } 
+            keyExtractor={ (f) => f.name }
+            data={ friendList } 
             renderItem={ ({ item }) => {
                     return <Text>{ item.name }</Text>
                 }} 
