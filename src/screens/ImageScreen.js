@@ -9,19 +9,19 @@ const ImageScreen = () => {
             <ImageDetail 
                 title='Forest' 
                 imageSource={ require('../../assets/forest.jpg') }
-                score='9'
+                score={9}
             />
 
             <ImageDetail 
                 title='Beach' 
                 imageSource={ require('../../assets/beach.jpg') }
-                score='4'
+                score={5}
             />
 
             <ImageDetail 
                 title='Mountain' 
                 imageSource={ require('../../assets/mountain.jpg') }
-                score='7'
+                score={7}
             />
         </View>
     )
