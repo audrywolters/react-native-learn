@@ -1,10 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const ImageDetail = () => {
+const ImageDetail = ( props ) => {
 
     return (
-        <Text>Show Forest</Text>
+        <>
+            <Text>{ props.title }</Text>
+        </>
     )
 }
 
