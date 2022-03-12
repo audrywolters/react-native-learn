@@ -1,7 +1,7 @@
 import React, { useReducer } from 'react'
 import { View, Text, StyleSheet, Button } from 'react-native'
 
-const COUNT_CREMENT = 1;
+const COUNT_CREMENT = 1
 
 const reducer = (state, action) => {
 	//  state === {count}: number
