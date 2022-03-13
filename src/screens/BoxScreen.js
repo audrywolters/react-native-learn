@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 		backgroundColor: 'lightgrey',
 		borderWidth: 1,
 		borderColor: 'black',
-		height: 200,
+		height: 100,
 		//
 		alignItems: 'flex-start',
 		flexDirection: 'row'
@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
 		backgroundColor: 'pink',
 		borderWidth: 3,
 		borderColor: 'grey',
+		height: 50,
 		//
 		flex: 1
 	},
@@ -35,6 +36,7 @@ const styles = StyleSheet.create({
 		backgroundColor: 'lightblue',
 		borderWidth: 3,
 		borderColor: 'grey',
+		height: 50,
 		//
 		flex: 1,
 		// marginTop: 20,
@@ -53,6 +55,7 @@ const styles = StyleSheet.create({
 		backgroundColor: 'lavender',
 		borderWidth: 3,
 		borderColor: 'grey',
+		height: 50,
 		//
 		flex: 1
 	}
