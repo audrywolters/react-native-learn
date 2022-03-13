@@ -16,23 +16,27 @@ const styles = StyleSheet.create({
 		borderWidth: 5,
 		borderColor: 'green',
 		height: 200,
-		alignItems: 'center'
+		alignItems: 'stretch'
 		// flexDirection: 'row'
 	},
 	textOneStyle: {
 		borderWidth: 3,
+		backgroundColor: 'blue',
 		borderColor: 'pink',
 		// flex: 4
 	},
 	textTwoStyle: {
 		borderWidth: 3,
 		borderColor: 'pink',
-		alignSelf: 'stretch'
+		backgroundColor: 'grey',
+		fontSize: 18,
+		left: 10
 		// flex: 4
 	},
 	textThreeStyle: {
 		borderWidth: 3,
 		borderColor: 'pink',
+		backgroundColor: 'blue',
 		// flex: 2
 	}
 	// Save for reference
