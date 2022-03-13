@@ -4,9 +4,9 @@ import { Text, View, StyleSheet } from 'react-native'
 const BoxScreen = () => {
 	return (
 		<View style={styles.viewStyle}>
-			<Text style={styles.textOneStyle}>Child 1</Text>
+			{/* <Text style={styles.textOneStyle}>Child 1</Text>
 			<Text style={styles.textTwoStyle}>Child 2</Text>
-			<Text style={styles.textThreeStyle}>Child 3</Text>
+			<Text style={styles.textThreeStyle}>Child 3</Text> */}
 		</View>
 	)
 }
@@ -17,8 +17,11 @@ const styles = StyleSheet.create({
 		// borderColor: 'green',
 		height: 200,
 		alignItems: 'stretch',
-		backgroundColor: 'green'
-		// flexDirection: 'row'
+		backgroundColor: 'green',
+		flexDirection: 'row',
+		// ...StyleSheet.absoluteFillObject // does not work for parentless, or this for some reason
+		// height: 100% <-- apparently not cool,
+		// height: auto <-- also not cool
 
 	},
 	textOneStyle: {
