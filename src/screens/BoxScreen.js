@@ -12,6 +12,11 @@ const BoxScreen = () => {
 }
 
 const styles = StyleSheet.create({
+	// this may be the web answer I'm looking for
+	// body {
+	// 	height: 100%,
+	// 	margin: 0 
+	// },
 	viewStyle: {
 		// borderWidth: 5,
 		// borderColor: 'green',
@@ -19,10 +24,11 @@ const styles = StyleSheet.create({
 		alignItems: 'stretch',
 		backgroundColor: 'green',
 		flexDirection: 'row',
+
 		// ...StyleSheet.absoluteFillObject // does not work for parentless, or this for some reason
 		// height: 100% <-- apparently not cool,
 		// height: auto <-- also not cool
-
+		
 	},
 	textOneStyle: {
 		// borderWidth: 3,
