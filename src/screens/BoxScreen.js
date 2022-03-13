@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
 		// right: 0,
 		// bottom: 0,
 		// left: 0
-		...StyleSheet.absoluteFillObject // nice! wish this was in basic css w/o tons of code
+		...StyleSheet.absoluteFillObject // nice! maybe flexbox: alignItems: 'stretch' will work for web somehow...
 		// flex: 4
 	},
 	textThreeStyle: {
