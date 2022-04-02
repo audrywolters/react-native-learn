@@ -15,7 +15,8 @@ const ColorScreen = () => {
 
 			<FlatList
 				keyExtractor={(item) => item}
-				data={colors}
+				// data is state for a FlatList (or array method for web)
+				data={colors} 
 				renderItem={({ item }) => {
 					return (
 						<View style={{ height: 100, width: 100, backgroundColor: item }} />
